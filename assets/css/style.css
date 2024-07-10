@@ -1,0 +1,40 @@
+/*CSS RESET*/
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: blue;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+footer h3 {
+  font-size: 1rem;
+}
+
+.limited-width {
+  max-width: 300px;
+  width: 100%;
+}
+
+.img-galeria {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  opacity: 80%;
+}
+
+#SuccessToast {
+  display: none;
+}
